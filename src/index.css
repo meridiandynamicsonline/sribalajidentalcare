@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  color: #2d2d2d;
+
+  background-color: #faf9f6;
+
+  background-image:
+    radial-gradient(circle at 1px 1px,
+      rgba(95,141,122,.08) 1px,
+      transparent 0);
+
+  background-size: 40px 40px;
+}
+
+h1,h2,h3,h4{
+    font-family:"Playfair Display", serif;
+}
