@@ -6,21 +6,21 @@ import { Brain, HeartHandshake, Sparkles } from "lucide-react";
 const services = [
   {
     icon: Brain,
-    title: "Therapy",
+    title: "Service1",
     description:
-      "Professional counseling for stress, anxiety, depression, and emotional well-being.",
+      "service description for test purposes.",
   },
   {
     icon: Sparkles,
-    title: "Pranic Healing",
+    title: "Service2",
     description:
-      "Energy-based healing techniques to restore balance and support holistic wellness.",
+      "service description for test purposes.",
   },
   {
     icon: HeartHandshake,
-    title: "Wellness Coaching",
+    title: "Service3",
     description:
-      "Guidance for mindfulness, personal growth, and healthier lifestyle habits.",
+      "service description for test purposes.",
   },
 ];
 
@@ -31,7 +31,7 @@ export default function Services() {
         <SectionHeading
           eyebrow="Services"
           title="How I Can Help"
-          description="Personalized care designed to support your emotional, mental, and energetic well-being."
+          description="Personalized care designed to protect your precious smile."
         />
 
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-8">

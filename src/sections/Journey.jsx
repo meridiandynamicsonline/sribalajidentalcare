@@ -13,39 +13,39 @@ import {
 const steps = [
   {
     icon: CalendarDays,
-    title: "Book Consultation",
+    title: "Book an Appointment",
     description:
-      "Choose a convenient time for your first session online or in person.",
+      "Choose a convenient time to visit Sri Balaji Dental Care for your dental consultation.",
   },
   {
     icon: MessageCircleHeart,
-    title: "Understand Your Challenges",
+    title: "Discuss Your Concerns",
     description:
-      "Share your concerns in a safe, supportive, and confidential environment.",
+      "Share your dental concerns, symptoms, and treatment expectations with our dental team.",
   },
   {
     icon: ClipboardCheck,
-    title: "Personalized Healing Plan",
+    title: "Dental Examination",
     description:
-      "Receive a therapy and healing plan tailored to your individual needs.",
+      "Get your oral health assessed so the dentist can understand your needs and recommend suitable treatment options.",
   },
   {
     icon: HeartPulse,
-    title: "Healing Sessions",
+    title: "Personalized Treatment",
     description:
-      "Participate in regular therapy and Pranic Healing sessions focused on progress.",
+      "Receive dental care tailored to your needs, with your treatment options explained before proceeding.",
   },
   {
     icon: TrendingUp,
-    title: "Track Your Progress",
+    title: "Follow-Up & Recovery",
     description:
-      "Celebrate improvements while adjusting the approach as needed.",
+      "Follow your dentist's aftercare instructions and attend follow-up visits when recommended.",
   },
   {
     icon: Smile,
-    title: "Balanced Living",
+    title: "A Healthier Smile",
     description:
-      "Develop healthier habits, emotional resilience, and lasting inner peace.",
+      "Maintain your oral health with good dental habits and regular check-ups for a confident, healthy smile.",
   },
 ];
 
@@ -54,19 +54,19 @@ export default function Journey() {
     <section id="journey" className="overflow-hidden bg-[#F7FAF9] py-20 md:py-28">
       <Container>
         <SectionHeading
-          eyebrow="Healing Journey"
-          title="What to Expect"
-          description="Every journey is unique, but each one begins with a caring conversation and a personalized path toward well-being."
+          eyebrow="Your Dental Journey"
+          title="Your Visit, Step by Step"
+          description="From your first appointment to follow-up care, we aim to make your dental experience comfortable, clear, and focused on your oral health."
         />
 
         <div className="relative mt-16 lg:mt-24">
-          {/* Vertical line - Adjusted for perfect centering with the dots */}
-          <div 
-            className="absolute left-6 top-0 h-full w-1 -translate-x-1/2 rounded-full bg-[#DDF2E6] lg:left-1/2" 
-            aria-hidden="true" 
+          {/* Vertical timeline line */}
+          <div
+            className="absolute left-6 top-0 h-full w-1 -translate-x-1/2 rounded-full bg-[#DDF2E6] lg:left-1/2"
+            aria-hidden="true"
           />
 
-          {/* Timeline Container (Semantic Ordered List) */}
+          {/* Timeline Container */}
           <ol className="space-y-12 lg:space-y-16">
             {steps.map((step, index) => {
               const Icon = step.icon;
@@ -77,7 +77,11 @@ export default function Journey() {
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: "-50px" }}
-                  transition={{ duration: 0.6, delay: index * 0.1, ease: "easeOut" }}
+                  transition={{
+                    duration: 0.6,
+                    delay: index * 0.1,
+                    ease: "easeOut",
+                  }}
                   className={`relative flex items-center ${
                     index % 2 === 0
                       ? "lg:flex-row"
@@ -85,16 +89,16 @@ export default function Journey() {
                   }`}
                 >
                   {/* Timeline Dot */}
-                  <div 
+                  <div
                     className="absolute left-6 z-10 flex h-12 w-12 -translate-x-1/2 items-center justify-center rounded-full bg-[#5F8D7A] font-bold text-white shadow-md ring-4 ring-[#F7FAF9] lg:left-1/2"
                     aria-hidden="true"
                   >
                     {index + 1}
                   </div>
 
-                  {/* Card wrapper */}
+                  {/* Card Wrapper */}
                   <div className="w-full pl-16 lg:w-[47%] lg:pl-0">
-                    <motion.div 
+                    <motion.div
                       whileHover={{ scale: 1.02, y: -4 }}
                       transition={{ duration: 0.3, ease: "easeOut" }}
                       className="rounded-[2rem] border border-gray-100 bg-white p-6 shadow-sm transition-shadow hover:shadow-xl sm:p-8"

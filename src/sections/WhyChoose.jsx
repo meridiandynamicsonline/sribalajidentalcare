@@ -14,33 +14,33 @@ import {
 const features = [
   {
     icon: Brain,
-    title: "Professional Expertise",
-    text: "Evidence-informed therapy combined with compassionate guidance.",
+    title: "Patient-Focused Care",
+    text: "Dental care recommendations guided by your oral health needs and concerns.",
   },
   {
     icon: Sparkles,
-    title: "Certified Pranic Healing",
-    text: "Holistic energy healing that complements emotional wellness.",
+    title: "Personalized Treatment",
+    text: "Treatment options tailored to your dental condition and individual needs.",
   },
   {
     icon: Heart,
-    title: "Compassionate Care",
-    text: "Every client receives empathy, patience, and personalized attention.",
+    title: "Compassionate Approach",
+    text: "A considerate experience with attention to your comfort at every step.",
   },
   {
     icon: ShieldCheck,
-    title: "Complete Confidentiality",
-    text: "Your privacy and trust remain our highest priority.",
+    title: "Safety & Hygiene",
+    text: "A focus on cleanliness and patient safety throughout your visit.",
   },
   {
     icon: Globe,
-    title: "Online & Offline Sessions",
-    text: "Flexible consultations to fit your schedule and location.",
+    title: "Convenient Appointments",
+    text: "Get in touch with our clinic to arrange a visit that suits your schedule.",
   },
   {
     icon: Users,
-    title: "Personalized Healing",
-    text: "Every treatment plan is tailored to your individual needs.",
+    title: "Guidance & Follow-Up",
+    text: "Understand your treatment options and receive aftercare guidance when needed.",
   },
 ];
 
@@ -49,9 +49,9 @@ export default function WhyChoose() {
     <section className="bg-white py-16 md:py-28">
       <Container>
         <SectionHeading
-          eyebrow="Why Choose"
+          eyebrow="Why Choose Us"
           title="Why Choose Sri Balaji Dental Care?"
-          description="A thoughtful approach that combines professional therapy with holistic healing to support your emotional well-being."
+          description="We focus on patient comfort, personalized dental care, and clear guidance to help you make informed decisions about your oral health."
         />
 
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-8">
@@ -67,7 +67,7 @@ export default function WhyChoose() {
                 transition={{
                   delay: index * 0.1,
                   duration: 0.5,
-                  ease: "easeOut"
+                  ease: "easeOut",
                 }}
                 whileHover={{ scale: 1.02, y: -4 }}
                 whileTap={{ scale: 0.98 }}

@@ -9,23 +9,23 @@ import {
 const items = [
   {
     icon: BadgeCheck,
-    title: "Certified",
-    subtitle: "Professional Pranic Healer",
+    title: "Professional Care",
+    subtitle: "Dental care tailored to your needs",
   },
   {
     icon: HeartHandshake,
-    title: "Personalized Care",
-    subtitle: "Tailored therapy sessions",
+    title: "Patient-First Approach",
+    subtitle: "Care focused on your comfort",
   },
   {
     icon: ShieldCheck,
-    title: "Confidential",
-    subtitle: "Safe & private consultations",
+    title: "Safety & Hygiene",
+    subtitle: "Attention to cleanliness and patient safety",
   },
   {
     icon: Globe,
-    title: "Online & Offline",
-    subtitle: "Flexible appointment options",
+    title: "Convenient Appointments",
+    subtitle: "Get in touch to plan your dental visit",
   },
 ];
 

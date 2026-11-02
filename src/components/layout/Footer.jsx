@@ -22,9 +22,9 @@ export default function Footer() {
           >
             <h2 className="text-2xl font-bold text-white">Sri Balaji Dental Care</h2>
             <p className="mt-5 text-sm leading-relaxed text-white/80">
-              Helping individuals achieve emotional, mental, and spiritual
-              well-being through compassionate therapy and certified Pranic
-              Healing.
+              Sri Balaji Dental Care provides personalized
+              dental care focused on healthy smiles,
+              patient comfort, and long-term oral health.
             </p>
 
             <div className="mt-8 flex gap-4">
@@ -93,7 +93,7 @@ export default function Footer() {
                 <div className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white/10 transition-colors group-hover:bg-[#5F8D7A]">
                   <MapPin size={16} />
                 </div>
-                <span className="leading-relaxed">3, Sargodha Colony, Ranjeet Nagar, Kanpur, UP 208005</span>
+                <span className="leading-relaxed">E 362, behind Bharat petrol pump, Pakri Ka Pul, sector I, Ashiyana, Lucknow, Uttar Pradesh 226012</span>
               </a>
 
               <a href="tel:+918795337700" className="group flex items-center gap-4 transition-colors hover:text-white">
@@ -107,7 +107,7 @@ export default function Footer() {
                 <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white/10 transition-colors group-hover:bg-[#5F8D7A]">
                   <Mail size={16} />
                 </div>
-                <span>contact@drronalkumar.com</span>
+                <span>contact@test.com</span>
               </a>
             </div>
           </motion.div>

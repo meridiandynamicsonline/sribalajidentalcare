@@ -17,7 +17,7 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     setTimeout(() => {
       setIsSubmitting(false);
       setIsSuccess(true);
@@ -39,17 +39,18 @@ export default function Contact() {
             Contact
           </p>
           <h2 className="text-3xl font-bold text-[#355E4A] sm:text-4xl">
-            Let's Begin Your Healing Journey
+            Let's Take Care of Your Smile
           </h2>
           <p className="mt-4 text-lg text-[#6B7280]">
-            Whether you're seeking emotional healing, stress relief, or holistic
-            wellness, I'd be honored to guide you.
+            Have questions about your dental health or looking to schedule a visit?
+            Get in touch with Sri Balaji Dental Care. We're here to help you take
+            the next step toward a healthier, more confident smile.
           </p>
         </motion.div>
 
         {/* Content */}
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-10">
-          
+
           {/* LEFT: Info (Changed x: -30 to y: 30) */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -64,9 +65,9 @@ export default function Contact() {
 
             <div className="space-y-8">
               {[
-                { icon: MapPin, title: "Clinic Address", text: "3, Sargodha Colony, Ranjeet Nagar, Kanpur, UP 208005" },
+                { icon: MapPin, title: "Clinic Address", text: "E 362, behind Bharat petrol pump, Pakri Ka Pul, sector I, Ashiyana, Lucknow, Uttar Pradesh 226012" },
                 { icon: Phone, title: "Phone", text: "+91 87953 37700" },
-                { icon: Mail, title: "Email", text: "contact@drronalkumar.com" },
+                { icon: Mail, title: "Email", text: "contact@sribalaji.com" },
                 { icon: Clock3, title: "Clinic Hours", text: "Monday – Friday\n10:00 AM – 7:00 PM" },
                 { icon: Globe, title: "Online Consultation", text: "Available Worldwide via Zoom / Google Meet" },
               ].map((item, index) => (
@@ -180,7 +181,7 @@ export default function Contact() {
                   <p className="mt-3 text-[#6B7280]">
                     Thank you for reaching out. Our team will contact you shortly to confirm your appointment details.
                   </p>
-                  <button 
+                  <button
                     onClick={() => setIsSuccess(false)}
                     className="mt-8 text-sm font-medium text-[#5F8D7A] transition-colors hover:text-[#355E4A]"
                   >
@@ -202,7 +203,7 @@ export default function Contact() {
         >
           <iframe
             title="Sri Balaji Dental Care"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.6498377475336!2d80.30124087513049!3d26.467013879102797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c396302f1135f%3A0x8d55562893f72ebe!2sDr.%20Ronal%20Kumar!5e0!3m2!1sen!2sin!4v1785008452338!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.2771351625665!2d80.91187377504566!3d26.799302976715115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfda759b0ce79%3A0x6423c5d16fa9468a!2sSri%20Balaji%20Dental%20Care!5e0!3m2!1sen!2sin!4v1793641954506!5m2!1sen!2sin"
             className="h-[350px] w-full border-0 md:h-[450px]"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
@@ -212,3 +213,6 @@ export default function Contact() {
     </section>
   );
 }
+
+
+<iframe src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
