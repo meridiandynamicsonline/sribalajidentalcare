@@ -62,7 +62,7 @@ export default function About() {
       <Container>
         <SectionHeading
           eyebrow="Meet Your Therapist"
-          title="Dr. Ronal Kumar"
+          title="Sri Balaji Dental Care"
           description="Dedicated to helping individuals heal emotionally, mentally, and spiritually through professional therapy and certified Pranic Healing."
         />
 

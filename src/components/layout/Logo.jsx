@@ -9,11 +9,11 @@ export default function Logo() {
 
       <div>
         <h2 className="text-lg font-bold leading-none">
-          Dr. Ronal Kumar
+          Sri Balaji Dental Care
         </h2>
 
         <p className="text-xs text-gray-500">
-          Therapy & Pranic Healing
+          Professional Dentist Care for Your Smile
         </p>
       </div>
     </div>

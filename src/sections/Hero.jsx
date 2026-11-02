@@ -120,7 +120,7 @@ export default function Hero() {
               <div className="flex h-full w-full items-center justify-center overflow-hidden rounded-[42%]">
                 <img
                   src={desktopPortraitImg}
-                  alt="Dr. Ronal Kumar - Therapist and Pranic Healer"
+                  alt="Sri Balaji Dental Care - Professional Dentist in Lucknow"
                   className="h-full w-full object-cover"
                   loading="eager"
                 />

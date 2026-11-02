@@ -50,7 +50,7 @@ export default function WhyChoose() {
       <Container>
         <SectionHeading
           eyebrow="Why Choose"
-          title="Why Choose Dr. Ronal Kumar?"
+          title="Why Choose Sri Balaji Dental Care?"
           description="A thoughtful approach that combines professional therapy with holistic healing to support your emotional well-being."
         />
 

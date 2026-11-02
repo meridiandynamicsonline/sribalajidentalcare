@@ -53,7 +53,7 @@ export default function Navbar() {
       >
         <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
           <h1 className="text-2xl font-bold text-[#355E4A]">
-            Dr. Ronal Kumar
+            Sri Balaji Dental Care
           </h1>
 
           {/* Desktop Navigation */}

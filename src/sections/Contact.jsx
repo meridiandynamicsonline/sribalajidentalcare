@@ -201,7 +201,7 @@ export default function Contact() {
           className="mt-12 overflow-hidden rounded-[2rem] shadow-lg md:mt-16"
         >
           <iframe
-            title="Dr. Ronal Kumar Clinic Location"
+            title="Sri Balaji Dental Care"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.6498377475336!2d80.30124087513049!3d26.467013879102797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c396302f1135f%3A0x8d55562893f72ebe!2sDr.%20Ronal%20Kumar!5e0!3m2!1sen!2sin!4v1785008452338!5m2!1sen!2sin"
             className="h-[350px] w-full border-0 md:h-[450px]"
             loading="lazy"

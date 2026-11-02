@@ -20,7 +20,7 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <h2 className="text-2xl font-bold text-white">Dr. Ronal Kumar</h2>
+            <h2 className="text-2xl font-bold text-white">Sri Balaji Dental Care</h2>
             <p className="mt-5 text-sm leading-relaxed text-white/80">
               Helping individuals achieve emotional, mental, and spiritual
               well-being through compassionate therapy and certified Pranic
@@ -144,7 +144,7 @@ export default function Footer() {
           className="mt-16 flex flex-col items-center justify-between gap-6 border-t border-white/10 pt-8 text-center text-sm text-white/60 md:flex-row md:text-left"
         >
           <p>
-            © {new Date().getFullYear()} Dr. Ronal Kumar. All Rights Reserved.
+            © {new Date().getFullYear()} Sri Balaji Dental Care. All Rights Reserved.
           </p>
 
           <p>

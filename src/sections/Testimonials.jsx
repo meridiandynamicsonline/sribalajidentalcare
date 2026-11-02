@@ -25,7 +25,7 @@ export default function Testimonials() {
         <SectionHeading
           eyebrow="Testimonials"
           title="Kind Words from Clients"
-          description="Experiences shared by individuals who have trusted Dr. Ronal Kumar with their wellness journey."
+          description="Experiences shared by individuals who have trusted Sri Balaji Dental Care with their precious smile."
         />
 
         {/* 
