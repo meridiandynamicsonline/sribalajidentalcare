@@ -16,7 +16,7 @@ export default function Stats() {
             key={label}
             className="rounded-3xl bg-white p-8 text-center shadow-lg"
           >
-            <h3 className="text-4xl font-bold text-[#5F8D7A]">
+            <h3 className="text-4xl font-bold text-[#191970]">
               {value}
             </h3>
 
