@@ -51,7 +51,7 @@ const steps = [
 
 export default function Journey() {
   return (
-    <section id="journey" className="overflow-hidden bg-[#F7FAF9] py-20 md:py-28">
+    <section id="journey" className="overflow-hidden bg-[#F7F7FC] py-20 md:py-28">
       <Container>
         <SectionHeading
           eyebrow="Your Dental Journey"
@@ -62,7 +62,7 @@ export default function Journey() {
         <div className="relative mt-16 lg:mt-24">
           {/* Vertical timeline line */}
           <div
-            className="absolute left-6 top-0 h-full w-1 -translate-x-1/2 rounded-full bg-[#DDF2E6] lg:left-1/2"
+            className="absolute left-6 top-0 h-full w-1 -translate-x-1/2 rounded-full bg-[#DCDCF2] lg:left-1/2"
             aria-hidden="true"
           />
 
@@ -90,7 +90,7 @@ export default function Journey() {
                 >
                   {/* Timeline Dot */}
                   <div
-                    className="absolute left-6 z-10 flex h-12 w-12 -translate-x-1/2 items-center justify-center rounded-full bg-[#5F8D7A] font-bold text-white shadow-md ring-4 ring-[#F7FAF9] lg:left-1/2"
+                    className="absolute left-6 z-10 flex h-12 w-12 -translate-x-1/2 items-center justify-center rounded-full bg-[#191970] font-bold text-white shadow-md ring-4 ring-[#F7F7FC] lg:left-1/2"
                     aria-hidden="true"
                   >
                     {index + 1}
@@ -103,7 +103,7 @@ export default function Journey() {
                       transition={{ duration: 0.3, ease: "easeOut" }}
                       className="rounded-[2rem] border border-gray-100 bg-white p-6 shadow-sm transition-shadow hover:shadow-xl sm:p-8"
                     >
-                      <div className="mb-5 inline-flex rounded-2xl bg-[#DDF2E6]/50 p-4 text-[#5F8D7A]">
+                      <div className="mb-5 inline-flex rounded-2xl bg-[#DCDCF2]/50 p-4 text-[#191970]">
                         <Icon size={28} />
                       </div>
 
