@@ -71,10 +71,10 @@ export default function WhyChoose() {
                 }}
                 whileHover={{ scale: 1.02, y: -4 }}
                 whileTap={{ scale: 0.98 }}
-                className="group rounded-[32px] border border-gray-100 bg-[#F7FAF9] p-6 shadow-sm transition-shadow hover:shadow-xl sm:p-8"
+                className="group rounded-[32px] border border-gray-100 bg-[#F7F7FC] p-6 shadow-sm transition-shadow hover:shadow-xl sm:p-8"
               >
-                <div className="mb-6 inline-flex rounded-2xl bg-[#DDF2E6]/50 p-4 transition-transform duration-300 group-hover:scale-110">
-                  <Icon className="h-8 w-8 text-[#5F8D7A]" />
+                <div className="mb-6 inline-flex rounded-2xl bg-[#DCDCF2]/50 p-4 transition-transform duration-300 group-hover:scale-110">
+                  <Icon className="h-8 w-8 text-[#191970]" />
                 </div>
 
                 <h3 className="mb-3 text-xl font-semibold text-[#1F2937] sm:text-2xl">
