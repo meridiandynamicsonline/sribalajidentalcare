@@ -52,7 +52,7 @@ export default function Navbar() {
         }`}
       >
         <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
-          <h1 className="text-2xl font-bold text-[#355E4A]">
+          <h1 className="text-2xl font-bold text-[#10105B]">
             Sri Balaji Dental Care
           </h1>
 
@@ -67,8 +67,8 @@ export default function Navbar() {
                     className={({ isActive }) =>
                       `transition-colors duration-300 ${
                         isActive
-                          ? "font-semibold text-[#5F8D7A]"
-                          : "text-[#6B7280] hover:text-[#5F8D7A]"
+                          ? "font-semibold text-[#191970]"
+                          : "text-[#6B7280] hover:text-[#191970]"
                       }`
                     }
                   >
@@ -77,7 +77,7 @@ export default function Navbar() {
                 ) : (
                   <a
                     href={link.path}
-                    className="text-[#6B7280] transition-colors duration-300 hover:text-[#5F8D7A]"
+                    className="text-[#6B7280] transition-colors duration-300 hover:text-[#191970]"
                   >
                     {link.name}
                   </a>
@@ -91,14 +91,14 @@ export default function Navbar() {
             href="/#contact"
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
-            className="hidden rounded-full bg-[#5F8D7A] px-6 py-3 font-medium text-white shadow-md transition-colors hover:bg-[#355E4A] hover:shadow-lg lg:block"
+            className="hidden rounded-full bg-[#191970] px-6 py-3 font-medium text-white shadow-md transition-colors hover:bg-[#10105B] hover:shadow-lg lg:block"
           >
             Book Appointment
           </motion.a>
 
           {/* Mobile Menu Toggle Button */}
           <button 
-            className="p-2 text-[#355E4A] lg:hidden"
+            className="p-2 text-[#10105B] lg:hidden"
             onClick={toggleMenu}
             aria-label="Toggle menu"
           >
@@ -128,8 +128,8 @@ export default function Navbar() {
                       className={({ isActive }) =>
                         `transition-colors duration-300 ${
                           isActive
-                            ? "font-semibold text-[#5F8D7A]"
-                            : "text-[#1F2937] hover:text-[#5F8D7A]"
+                            ? "font-semibold text-[#191970]"
+                            : "text-[#1F2937] hover:text-[#191970]"
                         }`
                       }
                     >
@@ -139,7 +139,7 @@ export default function Navbar() {
                     <a
                       href={link.path}
                       onClick={toggleMenu}
-                      className="text-[#1F2937] transition-colors duration-300 hover:text-[#5F8D7A]"
+                      className="text-[#1F2937] transition-colors duration-300 hover:text-[#191970]"
                     >
                       {link.name}
                     </a>
@@ -153,7 +153,7 @@ export default function Navbar() {
               href="/#contact"
               onClick={toggleMenu}
               whileTap={{ scale: 0.98 }}
-              className="mt-12 block w-full rounded-full bg-[#5F8D7A] py-4 text-center font-medium text-white shadow-md transition-colors hover:bg-[#355E4A]"
+              className="mt-12 block w-full rounded-full bg-[#191970] py-4 text-center font-medium text-white shadow-md transition-colors hover:bg-[#10105B]"
             >
               Book Appointment
             </motion.a>
