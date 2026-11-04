@@ -25,7 +25,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="bg-[#F7FAF9] py-16 md:py-24">
+    <section id="contact" className="bg-[#F7F7FC] py-16 md:py-24">
       <div className="mx-auto max-w-7xl px-6">
         {/* Heading */}
         <motion.div
@@ -35,10 +35,10 @@ export default function Contact() {
           viewport={{ once: true, margin: "-100px" }}
           className="mx-auto mb-12 max-w-2xl text-center md:mb-16"
         >
-          <p className="mb-3 text-sm font-medium uppercase tracking-[0.3em] text-[#5F8D7A]">
+          <p className="mb-3 text-sm font-medium uppercase tracking-[0.3em] text-[#191970]">
             Contact
           </p>
-          <h2 className="text-3xl font-bold text-[#355E4A] sm:text-4xl">
+          <h2 className="text-3xl font-bold text-[#10105B] sm:text-4xl">
             Let's Take Care of Your Smile
           </h2>
           <p className="mt-4 text-lg text-[#6B7280]">
@@ -59,7 +59,7 @@ export default function Contact() {
             viewport={{ once: true }}
             className="rounded-[2rem] border border-white/60 bg-white p-8 shadow-lg backdrop-blur-xl sm:p-10"
           >
-            <h3 className="mb-8 text-2xl font-semibold text-[#355E4A]">
+            <h3 className="mb-8 text-2xl font-semibold text-[#10105B]">
               Contact Information
             </h3>
 
@@ -72,7 +72,7 @@ export default function Contact() {
                 { icon: Globe, title: "Online Consultation", text: "Available Worldwide via Zoom / Google Meet" },
               ].map((item, index) => (
                 <div key={index} className="flex gap-5">
-                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-[#DDF2E6]/50 text-[#5F8D7A]">
+                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-[#DCDCF2]/50 text-[#191970]">
                     <item.icon size={24} />
                   </div>
                   <div>
@@ -105,7 +105,7 @@ export default function Contact() {
                   onSubmit={handleSubmit}
                   className="p-8 sm:p-10"
                 >
-                  <h3 className="mb-8 text-2xl font-semibold text-[#355E4A]">
+                  <h3 className="mb-8 text-2xl font-semibold text-[#10105B]">
                     Book an Appointment
                   </h3>
 
@@ -115,14 +115,14 @@ export default function Contact() {
                       required
                       aria-label="Full Name"
                       placeholder="Full Name"
-                      className="w-full rounded-xl border border-gray-200 bg-gray-50/50 px-5 py-4 text-[#1F2937] outline-none transition-all placeholder:text-gray-400 focus:border-[#5F8D7A] focus:bg-white focus:ring-4 focus:ring-[#DDF2E6]"
+                      className="w-full rounded-xl border border-gray-200 bg-gray-50/50 px-5 py-4 text-[#1F2937] outline-none transition-all placeholder:text-gray-400 focus:border-[#191970] focus:bg-white focus:ring-4 focus:ring-[#DCDCF2]"
                     />
                     <input
                       type="email"
                       required
                       aria-label="Email Address"
                       placeholder="Email Address"
-                      className="w-full rounded-xl border border-gray-200 bg-gray-50/50 px-5 py-4 text-[#1F2937] outline-none transition-all placeholder:text-gray-400 focus:border-[#5F8D7A] focus:bg-white focus:ring-4 focus:ring-[#DDF2E6]"
+                      className="w-full rounded-xl border border-gray-200 bg-gray-50/50 px-5 py-4 text-[#1F2937] outline-none transition-all placeholder:text-gray-400 focus:border-[#191970] focus:bg-white focus:ring-4 focus:ring-[#DCDCF2]"
                     />
                     <div className="grid gap-5 sm:grid-cols-2">
                       <input
@@ -130,13 +130,13 @@ export default function Contact() {
                         required
                         aria-label="Phone Number"
                         placeholder="Phone Number"
-                        className="w-full rounded-xl border border-gray-200 bg-gray-50/50 px-5 py-4 text-[#1F2937] outline-none transition-all placeholder:text-gray-400 focus:border-[#5F8D7A] focus:bg-white focus:ring-4 focus:ring-[#DDF2E6]"
+                        className="w-full rounded-xl border border-gray-200 bg-gray-50/50 px-5 py-4 text-[#1F2937] outline-none transition-all placeholder:text-gray-400 focus:border-[#191970] focus:bg-white focus:ring-4 focus:ring-[#DCDCF2]"
                       />
                       <input
                         type="date"
                         required
                         aria-label="Preferred Date"
-                        className="w-full rounded-xl border border-gray-200 bg-gray-50/50 px-5 py-4 text-[#1F2937] outline-none transition-all focus:border-[#5F8D7A] focus:bg-white focus:ring-4 focus:ring-[#DDF2E6]"
+                        className="w-full rounded-xl border border-gray-200 bg-gray-50/50 px-5 py-4 text-[#1F2937] outline-none transition-all focus:border-[#191970] focus:bg-white focus:ring-4 focus:ring-[#DCDCF2]"
                       />
                     </div>
                     <textarea
@@ -144,14 +144,14 @@ export default function Contact() {
                       required
                       aria-label="Message"
                       placeholder="Tell us how we can help..."
-                      className="w-full resize-none rounded-xl border border-gray-200 bg-gray-50/50 px-5 py-4 text-[#1F2937] outline-none transition-all placeholder:text-gray-400 focus:border-[#5F8D7A] focus:bg-white focus:ring-4 focus:ring-[#DDF2E6]"
+                      className="w-full resize-none rounded-xl border border-gray-200 bg-gray-50/50 px-5 py-4 text-[#1F2937] outline-none transition-all placeholder:text-gray-400 focus:border-[#191970] focus:bg-white focus:ring-4 focus:ring-[#DCDCF2]"
                     ></textarea>
 
                     <motion.button
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       disabled={isSubmitting}
-                      className="flex w-full items-center justify-center gap-2 rounded-full bg-[#5F8D7A] py-4 font-medium text-white shadow-md transition-colors hover:bg-[#355E4A] hover:shadow-lg disabled:opacity-70"
+                      className="flex w-full items-center justify-center gap-2 rounded-full bg-[#191970] py-4 font-medium text-white shadow-md transition-colors hover:bg-[#10105B] hover:shadow-lg disabled:opacity-70"
                     >
                       {isSubmitting ? (
                         <>
@@ -172,10 +172,10 @@ export default function Contact() {
                   transition={{ duration: 0.5, ease: "easeOut" }}
                   className="flex h-full min-h-[500px] flex-col items-center justify-center p-8 text-center sm:p-10"
                 >
-                  <div className="mb-6 rounded-full bg-[#DDF2E6] p-4 text-[#5F8D7A]">
+                  <div className="mb-6 rounded-full bg-[#DCDCF2] p-4 text-[#191970]">
                     <CheckCircle2 size={48} />
                   </div>
-                  <h3 className="text-2xl font-bold text-[#355E4A]">
+                  <h3 className="text-2xl font-bold text-[#10105B]">
                     Request Received
                   </h3>
                   <p className="mt-3 text-[#6B7280]">
@@ -183,7 +183,7 @@ export default function Contact() {
                   </p>
                   <button
                     onClick={() => setIsSuccess(false)}
-                    className="mt-8 text-sm font-medium text-[#5F8D7A] transition-colors hover:text-[#355E4A]"
+                    className="mt-8 text-sm font-medium text-[#191970] transition-colors hover:text-[#10105B]"
                   >
                     Submit another request
                   </button>
