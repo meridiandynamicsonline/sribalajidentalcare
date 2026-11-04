@@ -5,7 +5,7 @@ export default function Button({
         <button
             className="
             rounded-full
-            bg-[#5F8D7A]
+            bg-[#191970]
             px-8
             py-4
             text-white

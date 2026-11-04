@@ -50,14 +50,14 @@ const item = {
 
 export default function About() {
   return (
-    <section id="about" className="relative overflow-hidden bg-[#F7FAF9] py-28">
+    <section id="about" className="relative overflow-hidden bg-[#F7F7FC] py-28">
       {/* Static Decorative Backgrounds (Calm, no floating animations) */}
       <div
-        className="pointer-events-none absolute -left-24 top-16 h-80 w-80 rounded-full bg-[#5F8D7A]/5 blur-3xl"
+        className="pointer-events-none absolute -left-24 top-16 h-80 w-80 rounded-full bg-[#191970]/5 blur-3xl"
         aria-hidden="true"
       />
       <div
-        className="pointer-events-none absolute -right-24 bottom-10 h-96 w-96 rounded-full bg-[#DDF2E6]/40 blur-3xl"
+        className="pointer-events-none absolute -right-24 bottom-10 h-96 w-96 rounded-full bg-[#DCDCF2]/40 blur-3xl"
         aria-hidden="true"
       />
 
@@ -80,13 +80,13 @@ export default function About() {
             <motion.div
               whileHover={{ scale: 1.02 }}
               transition={{ duration: 0.4, ease: "easeOut" }}
-              className="relative overflow-hidden rounded-[42px] bg-gradient-to-br from-[#DDF2E6] via-[#F5EFE7] to-[#EEF8F2] shadow-xl"
+              className="relative overflow-hidden rounded-[42px] bg-gradient-to-br from-[#DCDCF2] via-[#F5EFE7] to-[#F1F1FA] shadow-xl"
             >
               <div className="absolute inset-0 bg-gradient-to-tr from-white/30 to-transparent" />
 
               {/* Replace this with an actual clinic or dentist image */}
               <div className="flex h-[560px] items-center justify-center">
-                <span className="text-lg font-medium text-[#5F8D7A]">
+                <span className="text-lg font-medium text-[#191970]">
                   Dental Clinic
                 </span>
               </div>
@@ -100,7 +100,7 @@ export default function About() {
               transition={{ duration: 0.3, ease: "easeOut" }}
               className="absolute -bottom-6 -right-6 rounded-3xl bg-white/95 px-8 py-6 shadow-xl backdrop-blur-md sm:-bottom-8 sm:-right-8"
             >
-              <h3 className="text-5xl font-bold text-[#5F8D7A]">Care</h3>
+              <h3 className="text-5xl font-bold text-[#191970]">Care</h3>
               <p className="mt-1 font-medium text-[#6B7280]">
                 For Every Smile
               </p>
@@ -116,7 +116,7 @@ export default function About() {
           >
             <motion.h3
               variants={item}
-              className="text-3xl font-bold leading-tight text-[#355E4A] sm:text-4xl"
+              className="text-3xl font-bold leading-tight text-[#10105B] sm:text-4xl"
             >
               Your Smile, <br /> Our Priority
             </motion.h3>
@@ -145,7 +145,7 @@ export default function About() {
                     transition={{ duration: 0.3, ease: "easeOut" }}
                     className="group flex gap-5 rounded-3xl border border-gray-100 bg-white p-6 shadow-sm transition-shadow hover:shadow-lg"
                   >
-                    <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-[#DDF2E6]/50 text-[#5F8D7A] transition-colors group-hover:bg-[#DDF2E6]">
+                    <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-[#DCDCF2]/50 text-[#191970] transition-colors group-hover:bg-[#DCDCF2]">
                       <Icon size={26} />
                     </div>
 

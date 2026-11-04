@@ -48,10 +48,10 @@ export default function Trust() {
               }}
               whileHover={{ scale: 1.02, y: -4 }}
               whileTap={{ scale: 0.98 }}
-              className="group rounded-3xl border border-gray-100 bg-[#F7FAF9] p-6 shadow-sm transition-shadow hover:shadow-xl sm:p-8"
+              className="group rounded-3xl border border-gray-100 bg-[#F7F7FC] p-6 shadow-sm transition-shadow hover:shadow-xl sm:p-8"
             >
-              <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#DDF2E6]/50 transition-transform duration-300 group-hover:scale-110">
-                <Icon className="h-7 w-7 text-[#5F8D7A]" />
+              <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#DCDCF2]/50 transition-transform duration-300 group-hover:scale-110">
+                <Icon className="h-7 w-7 text-[#191970]" />
               </div>
 
               <h3 className="mb-2 text-xl font-semibold text-[#1F2937]">

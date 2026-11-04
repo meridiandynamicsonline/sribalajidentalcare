@@ -64,7 +64,7 @@ export default function Testimonials() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="mt-4 flex items-center justify-center gap-2 text-sm font-medium text-[#5F8D7A] md:hidden"
+          className="mt-4 flex items-center justify-center gap-2 text-sm font-medium text-[#191970] md:hidden"
         >
           <span>Swipe for more</span>
           <MoveRight size={16} />

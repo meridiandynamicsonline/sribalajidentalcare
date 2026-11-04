@@ -6,7 +6,7 @@ export default function SectionHeading({
   return (
     <div className="mb-16 text-center">
 
-      <p className="mb-3 uppercase tracking-[0.35em] font-semibold text-[#5F8D7A]">
+      <p className="mb-3 uppercase tracking-[0.35em] font-semibold text-[#191970]">
         {eyebrow}
       </p>
 

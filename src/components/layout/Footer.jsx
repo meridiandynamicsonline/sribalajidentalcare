@@ -9,7 +9,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-[#355E4A] text-white">
+    <footer className="bg-[#10105B] text-white">
       <div className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           
@@ -40,7 +40,7 @@ export default function Footer() {
                   aria-label={social.label}
                   whileHover={{ scale: 1.1, y: -2 }}
                   whileTap={{ scale: 0.95 }}
-                  className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 transition-colors hover:bg-[#5F8D7A]"
+                  className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 transition-colors hover:bg-[#191970]"
                 >
                   <social.icon size={16} />
                 </motion.a>
@@ -90,21 +90,21 @@ export default function Footer() {
             <h3 className="mb-6 text-lg font-semibold">Contact</h3>
             <div className="space-y-5 text-sm text-white/80">
               <a href="#contact" className="group flex gap-4 transition-colors hover:text-white">
-                <div className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white/10 transition-colors group-hover:bg-[#5F8D7A]">
+                <div className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white/10 transition-colors group-hover:bg-[#191970]">
                   <MapPin size={16} />
                 </div>
                 <span className="leading-relaxed">E 362, behind Bharat petrol pump, Pakri Ka Pul, sector I, Ashiyana, Lucknow, Uttar Pradesh 226012</span>
               </a>
 
               <a href="tel:+918795337700" className="group flex items-center gap-4 transition-colors hover:text-white">
-                <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white/10 transition-colors group-hover:bg-[#5F8D7A]">
+                <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white/10 transition-colors group-hover:bg-[#191970]">
                   <Phone size={16} />
                 </div>
                 <span>+91 87953 37700</span>
               </a>
 
               <a href="mailto:contact@drronalkumar.com" className="group flex items-center gap-4 transition-colors hover:text-white">
-                <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white/10 transition-colors group-hover:bg-[#5F8D7A]">
+                <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white/10 transition-colors group-hover:bg-[#191970]">
                   <Mail size={16} />
                 </div>
                 <span>contact@test.com</span>
@@ -128,7 +128,7 @@ export default function Footer() {
             <motion.button
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              className="mt-8 w-full rounded-full bg-[#5F8D7A] px-7 py-4 font-medium text-white shadow-lg transition-colors hover:bg-[#DDF2E6] hover:text-[#355E4A] sm:w-auto"
+              className="mt-8 w-full rounded-full bg-[#191970] px-7 py-4 font-medium text-white shadow-lg transition-colors hover:bg-[#DCDCF2] hover:text-[#10105B] sm:w-auto"
             >
               Book Appointment
             </motion.button>
@@ -153,7 +153,7 @@ export default function Footer() {
               href="https://meridiandynamics.online"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold text-[#DDF2E6] transition-colors hover:text-white"
+              className="font-semibold text-[#DCDCF2] transition-colors hover:text-white"
             >
               Meridian Dynamics
             </a>
