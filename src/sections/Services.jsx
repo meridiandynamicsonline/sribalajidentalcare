@@ -49,8 +49,8 @@ export default function Services() {
                 whileTap={{ scale: 0.98 }}
                 className="group rounded-[32px] bg-white p-6 shadow-lg transition-shadow hover:shadow-2xl sm:p-8"
               >
-                <div className="mb-6 inline-flex rounded-2xl bg-emerald-100 p-4 transition-transform duration-300 group-hover:scale-110">
-                  <Icon className="h-8 w-8 text-[#5F8D7A]" />
+                <div className="mb-6 inline-flex rounded-2xl bg-[#DCDCF2] p-4 transition-transform duration-300 group-hover:scale-110">
+                  <Icon className="h-8 w-8 text-[#191970]" />
                 </div>
 
                 <h3 className="mb-4 text-xl font-bold sm:text-2xl">
