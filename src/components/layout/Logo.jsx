@@ -3,7 +3,7 @@ import { Sparkles } from "lucide-react";
 export default function Logo() {
   return (
     <div className="flex items-center gap-3">
-      <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#5F8D7A] text-white shadow-lg">
+      <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#191970] text-white shadow-lg">
         <Sparkles size={20} />
       </div>
 
