@@ -30,7 +30,7 @@ export default function Services() {
       <Container>
         <SectionHeading
           eyebrow="Services"
-          title="How I Can Help"
+          title="How Can I Help"
           description="Personalized care designed to protect your precious smile."
         />
 
