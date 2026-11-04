@@ -7,7 +7,7 @@ import desktopPortraitImg from "../assets/images/2.jpg";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-[#F7FAF9] pb-16 pt-24 md:pb-24 lg:pt-32">
+    <section className="relative overflow-hidden bg-[#F7F7FC] pb-16 pt-24 md:pb-24 lg:pt-32">
 
       {/* MOBILE & TABLET BACKGROUND IMAGE */}
       <div
@@ -19,12 +19,12 @@ export default function Hero() {
         }}
         aria-hidden="true"
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-[#F7FAF9]/80 via-[#F7FAF9]/50 to-[#F7FAF9]/80 backdrop-blur-[1px]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#F7F7FC]/80 via-[#F7F7FC]/50 to-[#F7F7FC]/80 backdrop-blur-[1px]" />
       </div>
 
       {/* DESKTOP BACKGROUND BLOBS */}
       <div
-        className="pointer-events-none absolute -left-32 -top-32 z-0 hidden h-96 w-96 rounded-full bg-[#DDF2E6]/60 blur-3xl lg:block"
+        className="pointer-events-none absolute -left-32 -top-32 z-0 hidden h-96 w-96 rounded-full bg-[#DCDCF2]/60 blur-3xl lg:block"
         aria-hidden="true"
       />
       <div
@@ -42,7 +42,7 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="text-center lg:text-left"
         >
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-[#153a2b]">
+          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-[#191970]">
             Sri Balaji Dental Care
           </p>
 
@@ -64,7 +64,7 @@ export default function Hero() {
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               transition={{ duration: 0.2, ease: "easeOut" }}
-              className="flex w-full items-center justify-center rounded-full bg-[#1f523d] px-8 py-4 font-medium text-white shadow-lg transition-colors hover:bg-[#1f523d] hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-[#DDF2E6] sm:w-auto"
+              className="flex w-full items-center justify-center rounded-full bg-[#191970] px-8 py-4 font-medium text-white shadow-lg transition-colors hover:bg-[#191970] hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-[#DCDCF2] sm:w-auto"
             >
               Book an Appointment
             </motion.a>
@@ -92,7 +92,7 @@ export default function Hero() {
 
             {/* Decorative Rings */}
             <div
-              className="absolute left-1/2 top-1/2 -z-20 h-[140%] w-[140%] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#DDF2E6]/50"
+              className="absolute left-1/2 top-1/2 -z-20 h-[140%] w-[140%] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#DCDCF2]/50"
               aria-hidden="true"
             />
             <div
@@ -102,7 +102,7 @@ export default function Hero() {
 
             {/* Background Glow */}
             <div
-              className="absolute inset-0 -z-10 scale-110 rounded-[42%] bg-gradient-to-br from-[#DDF2E6] to-[#F5EFE7] opacity-60 blur-3xl"
+              className="absolute inset-0 -z-10 scale-110 rounded-[42%] bg-gradient-to-br from-[#DCDCF2] to-[#F5EFE7] opacity-60 blur-3xl"
               aria-hidden="true"
             />
 
@@ -110,7 +110,7 @@ export default function Hero() {
             <motion.div
               whileHover={{ scale: 1.02 }}
               transition={{ duration: 0.4, ease: "easeOut" }}
-              className="relative h-[550px] w-full overflow-visible rounded-[42%] bg-gradient-to-br from-[#DFF4E5] to-[#F5EFE7] shadow-[0_40px_80px_rgba(0,0,0,0.12)]"
+              className="relative h-[550px] w-full overflow-visible rounded-[42%] bg-gradient-to-br from-[#E7E7F7] to-[#F5EFE7] shadow-[0_40px_80px_rgba(0,0,0,0.12)]"
             >
               <div className="flex h-full w-full items-center justify-center overflow-hidden rounded-[42%]">
                 <img
