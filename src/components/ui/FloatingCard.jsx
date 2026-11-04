@@ -26,7 +26,7 @@ export default function FloatingCard({
         ${className}
       `}
     >
-      <h3 className="text-2xl font-bold text-[#5F8D7A]">
+      <h3 className="text-2xl font-bold text-[#191970]">
         {title}
       </h3>
 
